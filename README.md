@@ -11,3 +11,5 @@ python -i XYZFrameInterpolation.py -inp <INPUT_FILE_NAME> -out <OUTPUT_FILE_NAME
 where ```-rep <NUMBER_OF_INTERPOLATED_FRAMES>``` corresponds to the number of frames to be interpolated in-between original frames from the .xyz file, ```-ter <INTERPOLATION_METHOD>``` must be either ```NN``` (for nearest neighbor), ```Linear``` for linear interpolation or ```CSpline``` for Cubic Spline interpolation, and ```-fr <RANGE_OF_FIXED_ATOMS>``` is the range of atoms that are fixed in the simulation/computation, if none exists, ignore the flag. 
 
 Make sure to pip install pandas, argparse, csv and scipy.
+
+Example videos for this script will follow at a later stage.
