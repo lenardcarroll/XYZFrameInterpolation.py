@@ -28,7 +28,7 @@ with open(args.input) as f:
 num_of_atoms = int(first)
 num_of_lines = len(list(open(args.input)))
 num_of_frames = int(num_of_lines/(num_of_atoms+2))
-Num_Replicas = int(args.Num_Replicas)/100
+Num_Replicas = 1/int(args.Num_Replicas)
 
 #Here the headers of the xyz file is removed
 skiparray = []
